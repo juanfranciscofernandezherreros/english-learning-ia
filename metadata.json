@@ -1,0 +1,6 @@
+{
+  "name": "LearnEnglishWithAI",
+  "description": "Una plataforma educativa interactiva para dominar los temas clave de gramática inglesa del nivel B2 (FCE), con explicaciones, ejemplos reales, autoevaluaciones dinámicas y un tutor de inteligencia artificial.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
