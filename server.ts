@@ -17,7 +17,7 @@ app.get("/api/topics", async (req, res) => {
     const controller = new AbortController();
     const id = setTimeout(() => controller.abort(), 15000);
 
-    const response = await fetch("https://heroku-streamlit-kikster-8413291d3fe7.herokuapp.com/topics", {
+    const response = await fetch("https://english-learning-api-fe5cfdfe6cca.herokuapp.com/topics", {
       headers: { "accept": "application/json" },
       signal: controller.signal
     });
